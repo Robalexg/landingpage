@@ -1,0 +1,51 @@
+.nav--container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.4rem 16.5rem;
+
+}
+
+.nav--logo{
+    font-size: 3.6rem;
+    font-weight: 800;
+}
+
+.nav--button{
+    height: 5.6rem;
+    width: 16.7rem;
+    background: #13183F;
+    color: white;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+    border-radius: 2.6rem;
+    border: none;
+}
+
+.nav--button:hover{
+    background: #666CA3;
+}
+
+@media (max-width: 768px) {
+    .nav--container{
+        padding: 2.4rem 4rem;
+    }
+
+    .nav--logo{
+        font-size: 2.8rem;
+    }
+
+    .nav--button{
+        width: 14rem;
+        height: 4.8rem;
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .nav--container{
+        padding: 1.6rem;
+    }
+    
+}

@@ -1,10 +1,11 @@
-
+import Nav from './components/Nav/Nav';
 import './App.css';
+
 
 function App() {
   return (
     <div className="App">
-      <h1>app</h1>
+      <Nav/>
     </div>
   );
 }
