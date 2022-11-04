@@ -2,8 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 2.4rem 16.5rem;
-
+    padding: 1.6rem 11%;
 }
 
 .nav--logo{
@@ -28,10 +27,6 @@
 }
 
 @media (max-width: 768px) {
-    .nav--container{
-        padding: 2.4rem 4rem;
-    }
-
     .nav--logo{
         font-size: 2.8rem;
     }
@@ -41,11 +36,17 @@
         height: 4.8rem;
         font-size: 1.6rem;
     }
+    
+    /* .nav--container{
+        padding: 2.4rem 4rem;
+    } */
 }
 
-@media (max-width: 375px) {
+@media (max-width:640px) {
     .nav--container{
-        padding: 1.6rem;
+        padding: 1.6rem 5%;
     }
     
 }
+
+
