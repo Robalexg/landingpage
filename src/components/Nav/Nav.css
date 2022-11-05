@@ -20,6 +20,7 @@
     font-size: 1.8rem;
     border-radius: 2.6rem;
     border: none;
+    cursor: pointer;
 }
 
 .nav--button:hover{

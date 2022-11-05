@@ -16,7 +16,6 @@ const Hero = () => {
             </div>
             <div className='hero--image'>
             </div>
-
         </section>
     )
 }
