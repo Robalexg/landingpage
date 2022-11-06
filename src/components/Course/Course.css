@@ -2,4 +2,70 @@
     display: flex;
     flex-flow: column nowrap;
     align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    background: white;
+    padding: 0 3.2rem 3.2rem 3.2rem;
+    border-radius: 1.5rem;
+
+}
+/* 
+.about{
+    font-size: 2.5rem;
+    width: 100%;
+    height: 32.2rem;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    border-radius: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 800;
+    line-height: 4rem;
+    padding: 0 3.2rem;
+} */
+
+.course--image{
+    margin-top: -7%;
+}
+
+.course--name{
+    font-size: 2.4rem;
+    margin-top: 3.2rem;
+    font-weight: 800;
+}
+
+.course--desc{
+    color: #83869A;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 2.8rem;
+    letter-spacing: 0;
+    text-align: left;
+    margin-top: 2.4rem;
+}
+
+.course--start{
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 2.8rem;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #F74780;
+    margin-top: 2.4rem;
+}
+
+@media (max-width: 768px) {
+
+}
+
+
+
+
+@media (max-width: 640px) {
+    .course--container{
+        height: auto;
+    }
+    
+    
 }
