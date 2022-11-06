@@ -7,7 +7,6 @@
     background: white;
     padding: 0 3.2rem 3.2rem 3.2rem;
     border-radius: 1.5rem;
-
 }
 /* 
 .about{
@@ -25,13 +24,21 @@
     padding: 0 3.2rem;
 } */
 
+.course--text{
+    height: 21.8rem;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+
 .course--image{
     margin-top: -7%;
+    margin-bottom: 4rem;
 }
 
 .course--name{
     font-size: 2.4rem;
-    margin-top: 3.2rem;
+    /* margin-top: 3.2rem; */
     font-weight: 800;
 }
 
@@ -42,7 +49,8 @@
     line-height: 2.8rem;
     letter-spacing: 0;
     text-align: left;
-    margin-top: 2.4rem;
+    /* margin-top: 2.4rem; */
+
 }
 
 .course--start{
@@ -52,11 +60,14 @@
     letter-spacing: 0px;
     text-align: left;
     color: #F74780;
-    margin-top: 2.4rem;
+    /* margin-top: 2.4rem; */
+    /* justify-self: flex-end; */
 }
 
 @media (max-width: 768px) {
-
+    .course--container{
+        height: auto;
+    }
 }
 
 

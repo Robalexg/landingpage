@@ -10,7 +10,7 @@
 } */
 
 .container{
-    padding: 0 11%;
+    padding: 0 11% 5% 11%;
     display: grid;
     grid: repeat(2,1fr)/repeat(3,1fr);
     gap: 8rem 3rem;
@@ -54,7 +54,7 @@
     .about{
         height: 12rem;
         font-size: 1.7rem;
-        margin-bottom: 4rem;
+        margin-bottom: 4rem ;
     }
     
 }
